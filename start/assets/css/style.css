@@ -1,0 +1,229 @@
+@media screen and (min-width:1200px) {
+nav {
+    background-color: #FFC017;
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    border-bottom: 1px solid black;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+nav img {
+    margin-left: 3em;
+    width: 170px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 1em;
+}
+button {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 1em 2em;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    border: 1px solid black;
+}
+
+
+
+.giallone {
+    background-color: #FFC017;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+}
+.testogiallone {
+    margin-left: 10em;
+}
+.testogiallone h1{
+    font-family:"Spectral", serif ;
+    font-weight: 600;
+    font-size: 5em;
+    margin-top: 0.9em;
+}
+.testogiallone h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+.testogiallone a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 3em;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.trending {
+    margin: 2em;
+}
+.su {
+    margin-left: 7.2em;
+}
+.tre {
+    position: relative;
+    bottom: 1.1em;
+    font-family: "Roboto", sans-serif; 
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bolder;
+}
+.trending ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trending ol li {
+    font-family: "Roboto", sans-serif; 
+    flex-basis: 300px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.trending ol li img {
+    border-radius: 50%;
+    width: 20px;
+}
+.trending ol li span {
+    position: relative;
+    bottom: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.trending ol li h4 {
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.trending ol li p {
+    padding-top: 5px;
+    font-size: 12px;
+    color: grey;
+}
+.trending ol li span img {
+    position: relative;
+    left: 100px;
+    bottom: 12px;
+}
+.bordo {
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+.sotto {
+    display: flex;
+    justify-content: space-between;
+}
+.articoli {
+    flex-basis: 160%;
+}
+
+article {
+    display: flex;
+    margin-left: 7em;
+    margin-top: 3em;
+    font-family: "Roboto", sans-serif; 
+}
+.testo {
+    flex-basis: 60%;
+}
+.propic {
+    border-radius: 50%;
+    width: 20px;
+}
+.nome {
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+article h4 {
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+article p {
+    margin-top: 0.8em;
+    font-size: 12px;
+    color: grey;
+}
+.description {
+    margin-top: 0.4em;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+.stellina {
+    position: relative;
+    top: 5px;
+}
+.immagine {
+    width: 220px;
+    padding-left: 2em;
+    flex-basis: 30%;
+}
+.mark {
+    position: relative;
+    left: 400px;
+    bottom: 20px;
+    width: 1%;
+}
+
+.aside {
+    clear: both;
+    font-family: "Roboto", sans-serif; 
+}
+aside h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 3em;
+    font-weight: bolder;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+}
+.tagtot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tag {
+    border: 1px solid #E9E9E9;
+    color: #696969;
+    padding: 0.5em;
+    margin-bottom: 0.3em;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif; 
+}
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: 2em ;
+    border-top: 1px solid #E9E9E9;
+    padding-top: 2em;
+}
+.foot p {
+    margin-bottom: 1em;
+}
+.foot p a {
+    text-decoration: none;
+    color: #696969;
+    padding: 1em;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif; 
+}
+}
